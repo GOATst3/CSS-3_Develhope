@@ -1,0 +1,48 @@
+body *{
+    border: 1px solid black;
+    margin: 1px;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 200px;
+    background-color: gainsboro;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+#logo-placeholder{
+    text-align: center;
+    height: 100px;
+    border: 1px solid black;
+}
+section#links{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+section#links>a{
+    font-size: 25px;
+    color: #2b2b2b;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+section#links>a:hover{
+    color: #2b2bb2;
+}
+#user{
+    justify-self: flex-end;
+    align-self: center;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+
